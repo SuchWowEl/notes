@@ -1,0 +1,11 @@
+= Welcome! =
+
+* 3rd Year Subs
+  * 2nd Sem
+    * CSC113
+    * CSC133
+    * [[2nd Sem/CSC161/index.wiki|CSC161 (Computer Systems Security)]]
+    * CSC175
+    * CSC194
+    * GEC101
+    * GEC104
