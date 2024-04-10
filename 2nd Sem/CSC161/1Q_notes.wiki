@@ -214,3 +214,34 @@ Threat Matrix:
   * Often have a lot of influence
 10) Nation-states
   * Huge money, short-term goals
+
+== Attack Motives ==
+1) Fraud
+2) Theft
+3) Scams
+4) Destruction
+5) Intellectual property, Identity, Brand theft
+6) Surveillance
+7) For the $$$
+  * Bug bounty programs = $$$
+  * There's a demand for it (real)
+8) Publicity attacks
+9) Availability attacks
+  * Dos, DDoS 
+
+== Threat Models ==
+Set of assumptions about the abilities of an adversary
+
+Assess things from their POV (me omw to hack the gov'n 😈)
+and try to protect/improve your system from insights.
+
+== Trusted Computing Base (TCB) ==
+"All hardware & software of a computing system critical to its security"
+
+Once compromised, system's security can no longer be guaranteed.
+
+==Don't understimate the human element==
+
+Humans are bad at a lot of things in which computers are good at (minus Gullible)
+
+Social engineering is the top threat.
