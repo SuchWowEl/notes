@@ -40,22 +40,22 @@ Now on to the next...
  = 2nd slide =
 
 == Security Goals ==
-1) Prevention::
+1) Prevention -
   prevent attackers from violating security policy 
-2) Detection::
+2) Detection -
   detect & report attacks 
-3) Recovery::
+3) Recovery -
   stop the attack, repair damage 
  
 == Policies & Mechanisms ==
 Policy:: (1) What is or is not allowed
 :: (2) Can be expressed in natural language or mathematics
-- policy language (for precision and ease of understanding)
+:: - policy language (for precision and ease of understanding)
 
 Mechanisms:: Implement and enforce policies
 
 == Policies & Mechanisms ==
-Security Architecture:: (1) Concept on how to secure a system
+Security Architecture:: (1) Concept or philosophy on how to secure a system
 :: - How to strengthen security? Possible weakness?
 
 Security Engineering:: Implement mechanisms & policy into a system
@@ -79,18 +79,18 @@ How seriously so? And how much should we spend?
 
 == Definitions ==
 Vulnerability:: A failure or bug, basically
-Attack vector:: The type of attack to break into a system
+Attack vector:: Type of attack/Component to break into the system
 Exploit:: [Software|Commands|Instructions] to take advantage of a vulnerability
 
-=== ? ===
+==== ? ====
 What exactly is the difference between Attack vector and exploit?
 * Attack vector, as it name suggests, is a means or pathway for the exploit.
   It's the pathway in which the hacker takes to do the bad thing itself,
   aka exploit.
-===   ===
+====   ====
 
 Attack (cyber attack):: The use of exploit to subvert security policies and mechanisms in place.
-Threat:: entity that can attack
+Threat:: adversary that can attack
 Attack surface:: All the attack vectors in the system.
 
 == Threats ==
@@ -123,7 +123,7 @@ The internet, as a result, create vulnerabilities
 * Imbalance between defender and attacker, as I understand.
 
 == Botnets ==
-- Computers(nets) connected to a network but infected(bot) with malicious software
+- Computers connected to a network(net) but infected with malicious software(bot)
 - 3 common uses:
   - DDoS attacks
     - Overwhelm server with too much traffic to "deny others of service"
@@ -154,6 +154,7 @@ It could be due to a lot of reasons including:
 * Attack from a distance
 * Easy to cast a wide net (wait for vulnerable people to be baited)
 * Physical world risks are low for most
+Which is why there "computer(hack) attacks" happen more often.
 
  = 4th slide =
 Threat Matrix:
@@ -176,7 +177,7 @@ Threat Matrix:
   * Knowing goals helps develop countermeasures
 * Levels of access (Insiders vs. Outsiders)
 * Risk tolerance
-  * How much risk they're willing to take
+  * [dis]likes taking risks
 * Resources (Time is also a resource besides money)
 * Expertise
 * Economics
