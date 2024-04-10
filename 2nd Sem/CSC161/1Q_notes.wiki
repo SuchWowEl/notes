@@ -1,0 +1,142 @@
+ = 1st slide =
+
+==Security==
+- noun se·cu·ri·ty \si-ˈkyu̇r-ə-tē\
+- the quality or state of being secure:
+  - freedom from 
+    - *danger*
+    - *fear or anxiety*
+    - *being laid off*: job security
+
+== What is computer security? ==
+
+Keeping systems, programs, and data "safe"
+The CIA Triad:
+
+Confidentiality:: Keep data & resources hidden
+  :: Traditional focus of computer security
+  :: Privacy is a reason for confidentiality (Freedom from intrusion)
+Integrity:: The trustworthiness of the data or resources
+  :: Data integrity
+  :: Origin integrity - Authentication
+  :: System integrity - System still works as expected
+Availability:: Being able to use the data or resources
+  :: Turning off a computer provides *confidentiality* & *integrity*
+  :: but _hurts_ availability
+
+== Security is... ==
+Not only adding encryption or technical stuffs,
+
+It's a *systems* issue
+
+Software and Systems are complex:
+  - Different OS's contain a lot of lines of code.
+  - Systems have a lot of layers (microcode, firmware, OS, libraries, apps, devices)
+  - ... and elements (clients, servers, networks, embedded devices)
+  - There's also this so-called human factor (more like error)
+
+Now on to the next...
+
+ = 2nd slide =
+
+== Security Goals ==
+1) Prevention::
+  prevent attackers from violating security policy 
+2) Detection::
+  detect & report attacks 
+3) Recovery::
+  stop the attack, repair damage 
+ 
+== Policies & Mechanisms ==
+Policy:: (1) What is or is not allowed
+:: (2) Can be expressed in natural language or mathematics
+- policy language (for precision and ease of understanding)
+
+Mechanisms:: Implement and enforce policies
+
+== Policies & Mechanisms ==
+Security Architecture:: (1) Concept on how to secure a system
+:: - How to strengthen security? Possible weakness?
+
+Security Engineering:: Implement mechanisms & policy into a system
+
+In engineering, we have to make *compromises*
+
+Security 
+*VERSUS*
+Cost, Performance, acceptability, usability
+
+== Protection ==
+Ultimately, who do we want to guard our system from?
+* Yourself (clumsily deleting system files)
+* Colleagues (privacy)
+* Company, Government, Others, etc.
+
+== Risk analysis ==
+Should we protect something?
+
+How seriously so? And how much should we spend?
+
+== Definitions ==
+Vulnerability:: A failure or bug, basically
+Attack vector:: The type of attack to break into a system
+Exploit:: [Software|Commands|Instructions] to take advantage of a vulnerability
+
+=== ? ===
+What exactly is the difference between Attack vector and exploit?
+* Attack vector, as it name suggests, is a means or pathway for the exploit.
+  It's the pathway in which the hacker takes to do the bad thing itself,
+  aka exploit.
+===   ===
+
+Attack (cyber attack):: The use of exploit to subvert security policies and mechanisms in place.
+Threat:: entity that can attack
+Attack surface:: All the attack vectors in the system.
+
+== Threats ==
+Attackers often resort to three Bs:
+- Burglary, Bribery, or Blackmail
+=== Threat categories ===
+- Disclosure: Unauthorized access to date
+- Deception: Acceptance of false data
+- Disruption: Interruption of correct operation
+- Usurpation: Unauthorized control of some part of system
+=== Threat actions ===
+- Snooping (unauthorized interception of information): c w Cia
+- Modification or alteration (""" change """ """): c w cIa
+- Masquerading or spoofing (impersonation): c w cIa
+- Repudiation of origin (wrongly denying that an entity sent/created smth): c w cIa
+- Denial of receipt (""" received data or message): c w cIA
+- Delay (temporary) & Denial of service (long-time inhibition of service): c w ciA
+
+Note: counter with *
+
+ = 3rd slide =
+Once upon a time, the Internet wasn't as secure as functionality was focused on more
+
+As a result, bad actors can hide at the edges of the network!
+
+The internet, as a result, create vulnerabilities
+
+== Asymmetric force ==
+* Actors can project or harness greater force. Low barriers to entry. Offense can be more effective than defense. A small number of actors can have a large effect.
+* Imbalance between defender and attacker, as I understand.
+
+== Botnets ==
+- Computers(nets) connected to a network but infected(bot) with malicious software
+- 3 common uses:
+  - DDoS attacks
+    - Overwhelm server with too much traffic to "deny others of service"
+    - Spam Mailing
+    - Cryptocurrency mining
+
+== Attacks ==
+- Social engineering
+  - manipulate others to action for attackers' benefit.
+- Phishing (sending unassuming malicious links in email to random people)
+- Spear Phishing (Focused attack)
+- Social Media or public (sometimes leaked) databases
+  - Use info for future attacks
+
+== Areas of Attack ==
+
