@@ -139,4 +139,72 @@ The internet, as a result, create vulnerabilities
   - Use info for future attacks
 
 == Areas of Attack ==
+1) Compromised access, code/command injection
+2) Eavesdropping & Man-in-the-middle (MitM) attacks
+3) Web sites
 
+== Networked Computer vs. Real-World Risks ==
+Essentially, a crime done through the internet is easier and a lot less risky.
+It could be due to a lot of reasons including:
+* Attack from a distance
+* Easy to cast a wide net (wait for vulnerable people to be baited)
+* Physical world risks are low for most
+
+ = 4th slide =
+Threat Matrix:
+* Script Kiddies (Low skill & Opportunistic attacker)
+  * Uses hacking tools created by others
+* APT or Advanced Persistent Threats (High skill & Targeted attacker)
+  * Most difficult to guard against
+
+== Types of threats ==
+- Opportunistic
+  - Attackers that dont focus on you specifically
+  - High skill: discover vulnerabilities & create custom exploits
+- Targeted attacks
+  - Attackers focus on you
+  - Prepare a lot for the attack
+  - Low skill: Requires some work (social eng, distribution of malware)
+
+== Characteristics of attackers ==
+* Goals
+  * Knowing goals helps develop countermeasures
+* Levels of access (Insiders vs. Outsiders)
+* Risk tolerance
+  * How much risk they're willing to take
+* Resources (Time is also a resource besides money)
+* Expertise
+* Economics
+  * Balancing time, money, risk, etc...
+
+== Adversaries ==
+1) Hackers
+  * Good or evil
+  * White (good) & Black (bad) hat hackers
+  * few are smart, rest are script kiddies
+  * Bug hunters (find bugs)
+  * Exploit writers (exploit vulnerabilities)
+2) Criminals
+  * often small $ but creative
+3) Malicious insiders
+  * Often have high levels of access
+4) Industrial spies
+  * Targets trade secrets
+  * Bribe/become inside attackers
+  * Risk averse: dislike taking risk
+5) Press (& politicians)
+  * Use any means if possible
+6) Organized crime
+  * Generally to earn more money
+7) Police
+  * Risk averse but have law on their side
+  * Not above breaking law
+8) Terrorists (freedom fighters)
+  * Motivated by their beliefs
+  * Usually low budget, low skill levels
+9) National intelligence orgs
+  * Huge money, Long-term goals
+  * Somewhat risk averse
+  * Often have a lot of influence
+10) Nation-states
+  * Huge money, short-term goals
