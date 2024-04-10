@@ -130,6 +130,11 @@ The internet, as a result, create vulnerabilities
     - Spam Mailing
     - Cryptocurrency mining
 
+== Anonymity ==
+* hard to know attacker
+* make guesses (thru reverse engineering)
+* creates trust issues at times
+
 == Attacks ==
 - Social engineering
   - manipulate others to action for attackers' benefit.
